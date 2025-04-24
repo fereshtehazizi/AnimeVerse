@@ -19,7 +19,7 @@ main a{
     text-decoration: none;
 }
 video{
-    width: 100%;
+    max-width: 1000px;
     height: 450px;
     margin-bottom: 20px;
     margin-top: 40px;
