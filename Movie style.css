@@ -1,6 +1,11 @@
 body{
     background-color: rgb(101, 2, 2);
 }
+.img1{
+    width: 65px;
+    height: auto;
+    justify-self: center;
+}
 .head{
     color: #fff;
     font-size: 40px;
