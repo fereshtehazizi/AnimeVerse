@@ -1,5 +1,6 @@
 body{
     background: rgb(101, 2, 2);
+    padding-bottom: 20px;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -78,8 +79,8 @@ h2{
     align-items: center;
     justify-content: center;
     justify-self: center;
-    border: #fff solid 2px;
-    box-shadow: 0px 0px 35px #fff;
+    border: 1px ridge #292727;
+    box-shadow: 0px 0px 20px #2f2c2c;
     border-radius: 15px;
 }
 .head2{
@@ -91,7 +92,7 @@ h2{
     font-family: poppins;
 }
 main .cards{
-    width: 100%;
+    max-width: 100%;
     height: 570px;
     align-items: center;
     border-radius: 15px;
@@ -103,12 +104,12 @@ main .cards{
 }
 main .cards .posters{
     max-width: 400px;
-    height: 560px;
+    height: 580px;
     color: #fff;
-    border: 1px solid #fff;
     border-radius: 15px;
     display: flex;
-    box-shadow: 5px 8px 10px #fff;
+    border: 1px solid #292727;
+    
 }
 main .cards .posters .ul2{
     width: 350px;
@@ -117,14 +118,23 @@ main .cards .posters .ul2{
     color: #fff;
     text-align: center;
 }
+main .cards .posters .ul2 li{
+    padding-bottom: 10px;
+}
 main .cards .posters .ul2 .img2{
     width: 340px;
     height: 200px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px black;
+    transition: 0.5s ease;
+}
+main .cards .posters:hover{
+    border: 1px ridge #292727;
+    box-shadow: 0px 0px 20px #2f2c2c;
 }
 main .cards .posters .ul2 p{
-    width: 330px;
-    height: auto;
-    word-wrap: break-word;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
 }
+
